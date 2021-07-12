@@ -1,0 +1,250 @@
+* { box-sizing: border-box;
+    
+}
+
+:root { 
+    
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+body {
+    background-image: url("./Resources/background-image.jpg");
+    background-size: cover ;
+    overflow: hidden;
+}
+
+
+@media (min-width: 300px) {
+    
+h1, 
+h2,
+h3,
+h4 { margin-bottom: 1rem;}
+
+h1 {
+    font-size:  3.4rem;
+    color: rgb(8, 51, 8);
+    margin-bottom: 5rem;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.container {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.container > • {
+    width: 100%;
+
+}
+
+.startScreen {
+    background-color: rgb(211, 240, 214);
+}
+
+.flex-column {
+    background-color: rgb(211, 240, 214);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    background-color: rgb(142, 196, 147);
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none ;
+}
+
+/* BUTTONS */
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid green;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: green;
+    background-color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 greenyellow;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+
+}
+}
+ 
+    
+
+@media (min-width: 700px)  {
+    
+        h1, 
+        h2,
+        h3,
+        h4 { margin-bottom: 1rem;}
+        
+        h1 {
+            font-size:  3.4rem;
+            color: rgb(8, 51, 8);
+            margin-bottom: 5rem;
+        }
+        
+     
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 4rem;
+            font-weight: 700;
+        }
+        
+        h3 {
+            font-size: 2.8rem;
+            font-weight: 500;
+        }
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+        }
+        
+        .container > • {
+            width: 100%;
+        }
+        
+        .startScreen {
+            background-color: rgb(211, 240, 214);
+        }
+        
+        .flex-column {
+            background-color: rgb(211, 240, 214);
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .flex-center {
+            background-color: rgb(142, 196, 147);
+            padding: 4rem;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text-center {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hidden {
+            display: none ;
+        }
+        
+        /* BUTTONS */
+        .btn {
+            font-size: 1.8rem;
+            padding: 1rem 0;
+            width: 20rem;
+            text-align: center;
+            border: 0.1rem solid green;
+            margin-bottom: 1rem;
+            text-decoration: none;
+            color: green;
+            background-color: white;
+        }
+        
+        .btn:hover {
+            cursor: pointer;
+            box-shadow: 0 0.4rem 1.4rem 0 greenyellow;
+            transform: translateY(-0.1rem);
+            transition: transform 150ms;
+        }
+        
+        .btn[disabled]:hover {
+            cursor: not-allowed;
+            box-shadow: none;
+            transform: none;
+        
+        }
+    }
+         
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
